@@ -50,6 +50,7 @@ namespace ElevatorSimulator
                 {
                     passengerManager.AddPassenger(Person.GenerateRandom(0,10));
                 }
+                await Task.Delay(2000);
             }
         }
     }

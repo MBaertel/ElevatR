@@ -19,8 +19,8 @@ namespace ElevetarConsole
             {
                 visualizer.AddElevator(elevator);
             }
-            var simulation = new Simulation(ElevatR);
-            simulation.RunSimulation();
+            //var simulation = new Simulation(ElevatR);
+            //simulation.RunSimulation();
             await DrawLoop(visualizer);
         }
 
